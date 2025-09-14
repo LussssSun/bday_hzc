@@ -1,3 +1,16 @@
 h1 {
   text-decoration: underline;
 }
+
+
+.frame {
+  display: grid;
+  min-height: 600px;
+  max-width: 400px;
+  margin: 4% auto;
+  background-color: rgba(132, 135, 142, 0.232);
+}
+
+.body {
+  background: url("background_hzc.jpg");
+}
