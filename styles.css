@@ -12,5 +12,6 @@ h1 {
 }
 
 .body {
-  background: url("background_hzc.jpg");
+  background-image: url("background_hzc.jpg");
+  background-size:cover;
 }
