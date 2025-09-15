@@ -12,9 +12,31 @@ h1 {
   min-height: 600px;
   max-width: 400px;
   margin: 4% auto;
-  background-color: rgba(132, 135, 142, 0.232);
+  background-color: rgba(131, 138, 154, 0.549);
 }
-
+.arraw {
+  color: rgba(240, 248, 255, 0.788);
+  max-height: 1em;
+  max-width: 2em;
+  line-height: 0.6;
+  font-size: 3em;
+  background-color: rgba(167, 183, 211, 0.873);
+  border: 3px solid rgba(211, 217, 230, 0.942);
+  border-radius: 12px;
+  margin-bottom: -15%;
+}
+.button-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: bottom;
+  width: 100%;
+}
+.button-row button:first-child {
+  justify-self: left;
+}
+.button-row button:last-child {
+  justify-self: right;
+}
 body {
   background-image: url("background_hzc.jpg");
   background-size:cover;
