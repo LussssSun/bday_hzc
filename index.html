@@ -23,8 +23,8 @@
     <div id="page1"class="frame">
       <h1>happy birthday</h1>
       <div class="button-row">
-        <button class="arraw">⬅</button>
-        <button class="arraw">➡</button>
+        <button id="back" class="arraw">⬅</button>
+        <button id="forward" class="arraw">➡</button>
       </div>
     </div>
     <div id="page2" class="frame">
@@ -42,7 +42,7 @@
       });
     }
     function openPage[index]{
-        history=history.slice(0,currentIndex+1)
+        history=history.slice(0,currentIndex+1);
         history.push(index);
         currentIndex++;
         showPage(index);
@@ -53,7 +53,7 @@
         showPage(history[currentIndex]);
       }
     });
-      document.getElementById("forward").addEventListener("click",()=>{
+    document.getElementById("forward").addEventListener("click",()=>{
       if currentIndex>0{
         currentIndex--;
         showPage(history[currentIndex]);
