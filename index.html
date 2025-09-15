@@ -41,14 +41,14 @@
         document.getElementById(id).style.display = i === index? "block" : "none";
       });
     }
-    function openPage[index]{
+    function openPage(index){
         history=history.slice(0,currentIndex+1);
         history.push(index);
         currentIndex++;
         showPage(index);
       }
     document.getElementById("back").addEventListener("click",()=>{
-      if currentIndex > 0{
+      if (currentIndex > 0){
         currentIndex--;
         showPage(history[currentIndex]);
       }
