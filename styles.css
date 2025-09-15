@@ -1,5 +1,9 @@
 h1 {
-  text-decoration: underline;
+  text-decoration:line-through;
+  text-align:center;
+  font-family: "Lavishly Yours", cursive;
+  margin-top: 7%;
+  font-size: 2.5em;
 }
 
 
