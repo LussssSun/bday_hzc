@@ -73,7 +73,7 @@ body {
   backgroun-position:center;
 }
 @media (max-width: 768px) {
-  .videoPage {
+  .container {
     grid-template-columns: 1fr;
   }
 }
