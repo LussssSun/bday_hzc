@@ -6,6 +6,11 @@ h1 {
   font-size: 2.5em;
 }
 
+.img {
+  height: 450px;
+  width: 300px;
+}
+
 
 .frame {
   display: grid;
@@ -41,4 +46,9 @@ body {
   background-image: url("background_hzc.jpg");
   background-size:cover;
   backgroun-position:center;
+}
+@media (max-width: 768px) {
+  .videoPage {
+    grid-template-columns: 1fr;
+  }
 }
