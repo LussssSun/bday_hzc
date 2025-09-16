@@ -7,8 +7,8 @@ h1 {
 }
 
 .img {
-  height: 100px;
-  width: 150px;
+  height: 150px;
+  width: 100px;
 }
 
 
@@ -28,6 +28,7 @@ h1 {
   background-color: rgba(131, 138, 154, 0.549);
 }
 .card {
+  margin:auto;
 }
 
 .arraw {
