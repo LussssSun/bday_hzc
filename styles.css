@@ -25,6 +25,7 @@ h1 {
 
 .frame {
   display: grid;
+  position:relative;
   min-height: 600px;
   max-width: 400px;
   margin: 4% auto;
