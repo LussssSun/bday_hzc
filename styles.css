@@ -19,6 +19,17 @@ h1 {
   margin: 4% auto;
   background-color: rgba(131, 138, 154, 0.549);
 }
+.framePicPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 600px;
+  max-width: 800px;
+  margin: 4% auto;
+  background-color: rgba(131, 138, 154, 0.549);
+}
+.card {
+}
+
 .arraw {
   color: rgba(240, 248, 255, 0.788);
   max-height: 1em;
