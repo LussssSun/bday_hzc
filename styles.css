@@ -23,6 +23,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 600px;
+  height:300%;
   max-width: 800px;
   margin: 4% auto;
   background-color: rgba(131, 138, 154, 0.549);
