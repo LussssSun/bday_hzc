@@ -27,6 +27,11 @@ h1 {
   margin: 4% auto;
   background-color: rgba(131, 138, 154, 0.549);
 }
+.container{
+  display: grid;
+  place-items: center;
+  height: auto;
+}
 .card {
   margin:auto;
 }
