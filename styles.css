@@ -12,18 +12,22 @@ h1 {
 .img1{
   height: 300px;
   width: 180px;
+  object-fit:contain;
 }
 .img2{
   height: 300px;
   width: 180px;
+  object-fit:contain;
 }
 .img3{
   height: 300px;
   width: 180px;
+  object-fit:contain;
 }
 .img4{
   height: 300px;
   width: 180px;
+  object-fit:contain;
 }
 
 .frame {
