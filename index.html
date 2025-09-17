@@ -75,6 +75,10 @@
         <button id="forward" class="arraw">▶</button>
       </div>
     </div>
+    <div id="pageVideo" class="frameVideoPage" style="display: none">
+      <video controls width="600">
+          <source src="nevergonna.mp4" autoplay>
+        </video>
   </body>
 
   
@@ -108,7 +112,12 @@
       });
     });
     document.getElementById("trick").addEventlistener("click",()=>{
-      window.location.href="https://youtu.be/dQw4w9WgXcQ?si=Rn_CO_kOXu6PYbOrautoplay=1"
+      function closePage(index){
+        pages.forEach((id,i)=> {
+          document.getElementById(id).style.display="none";
+        });
+      }
+      pageVideo.style.display="block";
     });
   </script>
 </html>
