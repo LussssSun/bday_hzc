@@ -16,7 +16,7 @@ h1 {
 .border_{
   line-height:1;
   font-size: 1.3em;
-  letter-spacing:0.1em;
+  letter-spacing:0em;
   margin-block: 10%;
   color: rgb(227, 229, 238);
 }
