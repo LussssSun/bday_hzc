@@ -40,22 +40,11 @@
   width: 180px;
   object-fit:contain;
 }
-.img2{
-  height: 300px;
-  width: 180px;
+.imghz{
+  height:200px;
+  width:300px:
   object-fit:contain;
 }
-.img3{
-  height: 300px;
-  width: 180px;
-  object-fit:contain;
-}
-.img4{
-  height: 300px;
-  width: 180px;
-  object-fit:contain;
-}
-
 
 .frame {
   display: grid;
@@ -94,6 +83,17 @@
   margin:center;
 }
 
+.click {
+  color: rgba(240, 248, 255, 0.788);
+  font-family: "Lavishly Yours", cursive;
+  max-height: 1.3em;
+  max-width: 3em;
+  line-height: 1;
+  font-size: 2em;
+  background-color: rgba(167, 183, 211, 0.873);
+  border: 3px solid rgba(211, 217, 230, 0.942);
+  border-radius: 12px;
+}
 .arraw {
   color: rgba(240, 248, 255, 0.788);
   max-height: 1.3em;
