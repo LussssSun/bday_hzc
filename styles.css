@@ -66,7 +66,7 @@
 .frameVideoPage{
   display: grid;
   position:relative;
-  place-item:center;
+  place-items:center;
   min-height: 600px;
   max-width: 650px;
   margin: 4% auto;
