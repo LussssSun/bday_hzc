@@ -59,7 +59,6 @@
 .frame {
   display: grid;
   position:relative;
-  place-items:center;
   min-height: 600px;
   max-width: 400px;
   margin: 4% auto;
@@ -94,6 +93,7 @@
 .container_{
   display:grid;
   place-items:center;
+  padding:3%;
 }
 .card {
   margin:center;
