@@ -81,7 +81,7 @@
 .container_{
   display:grid;
   place-items:center;
-  justify-self:left;
+  justify-self:start;
 }
 .card {
   margin:center;
