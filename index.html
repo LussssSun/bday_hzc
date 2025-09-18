@@ -25,7 +25,7 @@
       <div class="container_">
         <h1 class="happy">happy birthday</h1>
         <img id="trickCake" class="imgCake" src="cake.png">
-        <h2 class="title_video">点击蛋糕获取切片</h2>
+        <h2 id="qiepian" class="title_video">点击蛋糕获取切片</h2>
         <div class="button-row">
           <button id="back" class="arraw">◀</button>
           <button id="forward" class="arraw">▶</button>
@@ -134,7 +134,7 @@
         el.style.fontSize = "3em"; 
       }
     });
-    const clickList=["haha","gun"];
+    const clickList=["haha","gun","trickCake"];
     clickList.forEach(id=> {
       document.getElementById(id).addEventListener("click",()=>{
         if (id==="haha"){
@@ -143,6 +143,9 @@
         }else if(id==="gun"){
           document.getElementById("img11").src="img21.jpg";
           document.getElementById("img12").src="img22.jpg";
+        }else if(id==="trickCake"){
+          document.getElementById("trickCake").style.display="none";
+          document.getElementById("qiepian").innerText="哈哈傻逼怎么可能给你吃"；
         }
       });
     });
