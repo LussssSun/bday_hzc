@@ -35,6 +35,10 @@
   margin-block: 10%;
   color: rgb(227, 229, 238);
 }
+.imgCake{
+  height:50%;
+  width:50%;
+}
 .img1{
   height: 300px;
   width: 180px;
@@ -44,7 +48,7 @@
   height:150px;
   width:150px;
   object-fit:contain;
-  margin-top:4%;
+  margin-block:3%;
 }
 .imghz{
   height:200px;
@@ -55,6 +59,7 @@
 .frame {
   display: grid;
   position:relative;
+  place-items:center;
   min-height: 600px;
   max-width: 400px;
   margin: 4% auto;
@@ -68,6 +73,7 @@
   max-width: 650px;
   margin: 4% auto;
   background-color: rgba(131, 138, 154, 0.549);
+  padding:3%;
 }
 .frameVideoPage{
   display: grid;
