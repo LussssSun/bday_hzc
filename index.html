@@ -134,7 +134,7 @@
         el.style.fontSize = "3em"; 
       }
     });
-    const clickList=["haha","gun","trickCake"];
+    const clickList=["haha","gun"];
     clickList.forEach(id=> {
       document.getElementById(id).addEventListener("click",()=>{
         if (id==="haha"){
@@ -143,10 +143,6 @@
         }else if(id==="gun"){
           document.getElementById("img11").src="img21.jpg";
           document.getElementById("img12").src="img22.jpg";
-        }else if(id==="trickCake"){
-          document.getElementById("trickCake").style.display="none";
-          document.getElementById("qiepian").innerText="哈哈傻逼怎么可能给你吃"；
-        }
       });
     });
   </script>
