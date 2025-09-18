@@ -40,6 +40,11 @@
   width: 180px;
   object-fit:contain;
 }
+.img2{
+  height:150px;
+  width:150px;
+  object-fit:contain;
+}
 .imghz{
   height:200px;
   width:300px:
