@@ -68,6 +68,7 @@
   position:relative;
   place-items:center;
   max-width: 650px;
+  min-height:600px;
   margin: 4% auto;
   background-color: rgba(131, 138, 154, 0.549);
 }
