@@ -119,7 +119,7 @@
       });
     });
     document.getElementById("trick").addEventListener("click",()=>{
-      page3.style.display="none";
+      page3.style.display="none";gg
       pageVideo.style.display="block";
     });
     document.querySelectorAll('.click').forEach(el => {
@@ -127,7 +127,17 @@
         el.style.fontSize = "2.3em"; 
       } else {
         el.style.fontSize = "3em"; 
-  }
-});
+      }
+    });
+    const clickList=[haha,gun];
+    clickList.forEach(id=> {
+      document.addEventListener("click",()=>{
+        if (id==="haha"){
+          document.getElementById("img11").style.display="block";
+        }else if(id==="gun"){
+          document.getElementById("img12").style.display="block";
+        }
+      });
+    });
   </script>
 </html>
