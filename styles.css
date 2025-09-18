@@ -72,6 +72,7 @@
   display: grid;
   position:relative;
   max-width: 650px;
+  width:90%;
   min-height:600px;
   margin: 4% auto;
   background-color: rgba(131, 138, 154, 0.549);
