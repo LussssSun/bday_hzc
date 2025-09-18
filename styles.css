@@ -64,6 +64,7 @@
   background-color: rgba(131, 138, 154, 0.549);
 }
 .frameVideoPage{
+  place-items:center;
   display: grid;
   position:relative;
   max-width: 650px;
@@ -80,8 +81,6 @@
 }
 .container_{
   display:grid;
-  place-items:center;
-  text-align:left;
 }
 .card {
   margin:center;
