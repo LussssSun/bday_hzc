@@ -134,6 +134,10 @@
         el.style.fontSize = "3em"; 
       }
     });
+    document.getElementById("trickCake").addEventListener("click",()=>{
+      document.getElementById("trickCake").style.visibility="hidden";
+      document.getElementById("qiepian").innerText="哈哈傻逼怎么可能给你吃";                                                   
+    });
     const clickList=["haha","gun"];
     clickList.forEach(id=> {
       document.getElementById(id).addEventListener("click",()=>{
