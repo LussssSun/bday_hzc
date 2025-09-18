@@ -81,6 +81,7 @@
 .container_{
   display:grid;
   place-items:center;
+  text-align:left;
 }
 .card {
   margin:center;
