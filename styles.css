@@ -40,11 +40,13 @@
   height:80%;
   width:80%;
   margin:auto;
+  object-fit:contain;
 }
 .img1{
   height: 300px;
   width: 180px;
   object-fit:contain;
+  
 }
 .img2{
   height:150px;
