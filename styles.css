@@ -36,9 +36,9 @@
   color: rgb(227, 229, 238);
 }
 .imgCake{
+  display:block;
   height:80%;
   width:80%;
-  place-items:center;
 }
 .img1{
   height: 300px;
@@ -67,6 +67,7 @@
 }
 .framePicPage {
   display: grid;
+  place-items:center;
   grid-template-columns: 1fr 1fr;
   position: relative;
   min-height: 600px;
