@@ -36,10 +36,9 @@
   color: rgb(227, 229, 238);
 }
 .imgCake{
-  display:block;
   height:80%;
   width:80%;
-  margin:auto;
+  place-items:center;
 }
 .img1{
   height: 300px;
