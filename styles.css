@@ -66,6 +66,7 @@
 .frameVideoPage{
   display: grid;
   place-items:center;
+  justify-self:start;
   position:relative;
   max-width: 650px;
   min-height:600px;
@@ -81,8 +82,6 @@
 }
 .container_{
   display:grid;
-  place-items:center;
-  justify-self:start;
 }
 .card {
   margin:center;
