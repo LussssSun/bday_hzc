@@ -66,7 +66,7 @@
 .frameVideoPage{
   display: grid;
   position:relative;
-  place-items:center;
+  place-items: center;
   max-width: 650px;
   min-height:600px;
   margin: 4% auto;
@@ -80,6 +80,8 @@
   height: auto;
 }
 .container_{
+  display:grid;
+  place-items:center;
 }
 .card {
   margin:center;
@@ -106,18 +108,7 @@
   border: 3px solid rgba(211, 217, 230, 0.942);
   border-radius: 12px;
 }
-.arrawFirst{
-  position:absolute;
-  justify-self:left;
-  color: rgba(240, 248, 255, 0.788);
-  max-height: 1.3em;
-  max-width: 2em;
-  line-height: 1;
-  font-size: 3em;
-  background-color: rgba(167, 183, 211, 0.873);
-  border: 3px solid rgba(211, 217, 230, 0.942);
-  border-radius: 12px;
-}
+
 .button-row {
   display: flex;
   position:absolute;
