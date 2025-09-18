@@ -65,7 +65,7 @@
 }
 .frameVideoPage{
   display: grid;
-  align-items:center;
+  place-items:center;
   justify-items:start;
   position:relative;
   max-width: 650px;
